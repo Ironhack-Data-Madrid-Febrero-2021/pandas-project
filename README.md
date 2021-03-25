@@ -4,7 +4,7 @@
 The objective of this project is to find any patron in shark attacks or the mortality of the attack :shark:
 
 ### <span style="color:green">  Data </span>
-We have use the [Global Shark Attacks dataset] (https://www.kaggle.com/teajay/global-shark-attacks) from *Kaggle*
+We have use the [Global Shark Attacks dataset] (<https://www.kaggle.com/teajay/global-shark-attacks>) from *Kaggle*
 
 ### <span style="color:green">  Procedure </span>
 1. Cleaning the dataset: encoding, change column's name, drop empty rows, setting a new ID, drop non-value columns
@@ -12,8 +12,6 @@ We have use the [Global Shark Attacks dataset] (https://www.kaggle.com/teajay/gl
 3. Getting some statistics, study correlations and draw insightfull plots
 
 ### <span style="color:green">  Conclusions </span>
-![](image)
-
 - Nowadays there is a **decreasing tendence in fatal attacks**, probabily due to the fact that previous records only kept register of fatal attacks
 - **Provoked attacks** seems to be more **controled**, so results in a lower mortality than unprovoked 
 - Victicms of shark attacks are predominantly teenagers or youngs, around to **22 y.o.** in **both sexs**.
