@@ -1,17 +1,17 @@
 # Global shark attacks
 
-### <span style="color:green">  Objective </span>
+## <span style="color:green">  Objective </span>
 The objective of this project is to find any shark attack pattern, specifically those related with the mortality of the attack :shark:
 
-### <span style="color:green">  Data </span>
-We have used the [Global Shark Attacks dataset] (<https://www.kaggle.com/teajay/global-shark-attacks>) from *Kaggle*
+## <span style="color:green">  Data </span>
+We have used the [Global Shark Attacks dataset] (https://www.kaggle.com/teajay/global-shark-attacks) from *Kaggle*
 
-### <span style="color:green">  Procedure </span>
+## <span style="color:green">  Procedure </span>
 1. Cleaning the dataset: encoding, changing column's name, dropping empty rows, setting a new ID, dropping non-valuable columns
 2. Cleaning data using replace, RegEx, lstrip, extract and parse date column to datetime format
 3. Getting some statistics, study correlations and draw insightfull plots
 
-### <span style="color:green">  Conclusions </span>
+## <span style="color:green">  Conclusions </span>
 #### Shark attacks
 - Nowadays there is a **decreasing tendence in fatal attacks**, probably due to the fact that previous records only kept the track of fatal attacks
 - Victicms of shark attacks are predominantly teenagers or youngs, around **22 y.o.** in **both sexs**
