@@ -6,7 +6,7 @@
 The aim of this project is to find any shark attack pattern, specifically those related with the mortality of the attack :shark:
 
 ## <span style="color:green">  Data </span>
-We have used the [Global Shark Attacks dataset][1] [1]: https://www.kaggle.com/teajay/global-shark-attacks from *Kaggle*
+We have used the [Global Shark Attacks dataset](https://www.kaggle.com/teajay/global-shark-attacks) from *Kaggle*
 
 ## <span style="color:green">  Procedure </span>
 1. Cleaning the dataset: encoding, changing column's name, dropping empty rows, setting a new ID, dropping non-valuable columns
