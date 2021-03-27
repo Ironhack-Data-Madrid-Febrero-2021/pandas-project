@@ -6,7 +6,7 @@ together.
 
 ## TODOs
 
-1. Cleanind
+1. Cleaning
     1. Toy model 1: demographics
         1. For the demographics study we look at the two columns: Age, Sex.
         2. For the Age, I tryied to drop non valid ages
@@ -18,5 +18,6 @@ together.
         2. The column Country was already 'cleaned'.
    
 2. Analysis: Used matplotlib to see relations anf further information.
+3. Conclusions.
    
 
