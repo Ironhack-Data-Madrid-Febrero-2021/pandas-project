@@ -1,12 +1,10 @@
-# Project 1
+# Project 1 - Shark Attacks
 # Data Cleaning & Wrangling
 
-![Bethany Hamilton picture](../your-code/4c8d3d62c5c3d30ab54709bce4cb3b2ec8f38f87.webp)
+![Bethany Hamilton picture](your-code/4c8d3d62c5c3d30ab54709bce4cb3b2ec8f38f87.webp)
 
 ## Goals
-The goal of this project is to combine multiple data wrangling, cleaning, and manipulation Pandas techniques.
-
-First, we import the messy data set Shark Attack. We clean it up, prepare it to be analyzed, and then export it as a clean CSV data file. Illustrating with some graphs.
+The goal of this project is to combine multiple data wrangling, cleaning, and manipulation Pandas techniques. First, we import the messy data set Shark Attack. We clean it up, prepare it to be analyzed, and then export it as a clean CSV data file. Illustrating with some graphs.
 
 ## Deliverables
 * Two separate jupyter notebooks: ``'clean'`` and ``'analysis'``
@@ -17,6 +15,7 @@ First, we import the messy data set Shark Attack. We clean it up, prepare it to 
 
 ## Hypothesis tested: Do sharks gender discriminate?
 Sharks are one of the most terrifying creatures on Earth.
+
 What are their menu preferences?
 
 ## Libraries used
