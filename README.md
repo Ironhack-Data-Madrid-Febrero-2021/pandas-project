@@ -1,67 +1,41 @@
-# W2 Project - Data cleaning & wrangling
+![Bootcamp Data Analytics - IRONHACK](https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/84/original/logo-ironhack-blue.png)
+# PROYECTO PANDAS - Data cleaning & wrangling
 
-The goal of this project is to combine everything you have learned about data
-wrangling, cleaning, and manipulation with Pandas so you can see how it all works
-together. For this project, you will start with this messy data set Shark Attack.
-You will need to import it, use your data wrangling skills to clean it up,
-prepare it to be analyzed, and then export it as a clean CSV data file.
-Some graphs to better understand the data will surely be useful!!
+**El objetivo** de este proyecto es obtener la mayor información posible y poder extraer conclusiones reales de los datos.
 
-## TODOs
+**Observaciones** 
+Es un dataset un poco complicada de trabajar pero retador. La mayor parte de los datos están desestructurado y en múltiples formas, otro dato curioso es que tiene una gran cantidad de datos nulos, y por ello puede llevar a eliminar gran parte de nuestra dataset.  
 
-1. Toy model 1: demographics
-   1. Focus on columns 'Age' and 'Sex'
-   2. Choose a strategy to deal with missing values
-   3. Extract statistics
-   4. Report your procedure and conclusions with 4-5 sentences
-2. Toy model 2: space-time statistics
-   1. Focus on date and location columns
-   2. Choose a cleaning strategy
-   3. Extract statistics and draw at least two graphs that are insightful
-   4. Report your procedure and conclusions with a paragraph
-3. Free project
-   1. With no column restrictions, choose an interesting hypothesis/model
-   2. Clean the data accordingly
-      - You can use: `df.describe()`, `df["column"]`, etc.
-      - Use at least 5 data cleaning techniques inside a file named `clean.ipynb`
-      - Null values, columns drop, duplicated data, string manipulation,
-      apply fn, categorize, regex, etc.  
-   3. Extract statistics and draw at least 3-4 graphs that are insightful
-   4. Show data that validates the conclusions based on your hypotesis in a file
-   named `analysis.ipynb`
-   5. Build a compelling story-telling around your findings.
-   Think of your stakeholders and convince them with your conclusions!
-   (Some slides with few text and pretty plots are normally useful)
 
-## Suggested Ways to Get Started
+![Data](https://memegenerator.net/img/instances/51764130.jpg)
 
-- Examine the data and try to understand what the fields mean before diving into
-data cleaning and manipulation methods.
-- Break the project down into different steps -- Use the topics covered in the
-lessons to form a check list, add anything else you can think of that may be
-wrong with your data set, and then work through the check list.
-- Use the tools in your tool kit -- your knowledge of Python, data structures,
-Pandas, and data wrangling.
--  Work through the lessons in class & ask questions when you need to! Think
-about adding relevant code to your project each night, instead of, you know...
-procrastinating.
-- Commit early, commit often, don’t be afraid of doing something incorrectly
-because you can always roll back to a previous version.
-- Consult documentation and resources provided to better understand the tools
-you are using and how to accomplish what you want.
+## Focus 
+Gran parte del trabajo se va a centrar en: 
 
-## How to deliver the project
+1. La demografía 
+   1. Vamos a prestar especial atención en las columnas de  'Age' and 'Sex'
+  
+2. Estadísticas espacio-temporales
+   1. Es decir, nos centraremos en 'Date' and 'Location'. Para ambas columnas se crea nuevas columnas con datos específicos de dichas columnas ==> 'Year', 'Month' y 'Place'
+ 
+3. Tiburos
+   Aquí vamos a centrar nuestra atención en la 'Spacies', 'Time', 'Injury', 'Type'.
 
-1. Create a new repo with the name `data-cleaning-pandas` in your github account.
-   - Create a `README.md` file on repo root with project documentation
-   - At least 1 jupyter notebook is required
-   - **DO NOT UPLOAD SHARKs ATTACK DATASET TO GITHUB**
-2. Do a `PR` with the link of your repo copy pasted inside
-`m1/pandas-project/PROJECT-REPO.md` on our labs repo.
 
 ## Links & Resources
-
+El **DATASET** proviene de la plataforma de Kaggle.
+ 
+*Aquí teneís el Link por si también quereís probar*
+ 
 - <https://www.kaggle.com/teajay/global-shark-attacks>
-- <https://numpy.org/doc/1.18/>
-- <https://pandas.pydata.org/>
-- <https://docs.python.org/3/library/functions.html>
+
+
+## Herramientas de limpieza
+      para la mayor recogida de información y limpieza de datos se uso:
+               - La libreria de Pandas
+               - La libreria de Numpy
+               - La liberia de Regex
+      Para la Visualización de los datos se uso:
+               - Libreria de Seaborn
+               - Y la Libreria de Matplotlib
+
