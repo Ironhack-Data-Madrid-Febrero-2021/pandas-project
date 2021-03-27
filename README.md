@@ -18,6 +18,6 @@ together.
         2. The column Country was already 'cleaned'.
    
 2. Analysis: Used matplotlib to see relations anf further information.
-3. Conclusions.
+3. Conclusions:
    
 
