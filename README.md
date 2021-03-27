@@ -1,3 +1,20 @@
+
+
+The pandas project consists of two jupyter notebooks:
+
+
+
+-The first jupyter notebook is about cleaning the dataset. It begins droping some columns and then start with the 1st part:FIRST TOY MODEL: demographics. Focus on age and sex column, cleaning and droping NaN values using different types of pandas libraries. In the 2nd part: TOY MODEL 2: space-time statistics, we use value_Counts in order to take some insightful information.
+
+
+-The second jupyter notebook is about analyzing and giving some conclussions. After it, it has a dataframe with some interesting information and a surprise.
+
+
+
+
+
+
+
 # W2 Project - Data cleaning & wrangling
 
 The goal of this project is to combine everything you have learned about data
