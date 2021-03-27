@@ -1,7 +1,7 @@
 # Project 1
 # Data Cleaning & Wrangling
 
-![Bethany Hamilton picture](4c8d3d62c5c3d30ab54709bce4cb3b2ec8f38f87.webp? raw=True)
+![Bethany Hamilton picture](../your-code/4c8d3d62c5c3d30ab54709bce4cb3b2ec8f38f87.webp)
 
 ## Goals
 The goal of this project is to combine multiple data wrangling, cleaning, and manipulation Pandas techniques.
@@ -10,8 +10,8 @@ First, we import the messy data set Shark Attack. We clean it up, prepare it to 
 
 ## Deliverables
 * Two separate jupyter notebooks: ``'clean'`` and ``'analysis'``
-* Demographics (focus on columns 'Age' and 'Sex')
-* Space-time statistics (focus on date and location columns)
+* Demographics analysis (focus on columns 'Age' and 'Sex')
+* Space-time statistics analysis (focus on date and location columns)
 * Hypothesis test
 
 
@@ -21,14 +21,13 @@ What are their menu preferences?
 
 ## Libraries used
 
-* numpy
-* pandas
-* regex
-* collections
-* datetime
-* seaborn
-* matplotlib
-
+* ``numpy``
+* ``pandas``
+* ``regex``
+* ``collections``
+* ``datetime``
+* ``seaborn``
+* ``matplotlib``
 
 
 ## Links & Resources
